@@ -28,5 +28,5 @@ Send a request to https://localhost:44303//WebService1.asmx containing an xml bo
 </soap12:Envelope>
 ```
 Our software will determine where in the world a person is from, given their ip-address.\
-This information will then be uses, together with the persons name, to calculate their gender and return Ms|Mr|Blank.\
+This information will then be used, together with the persons name, to calculate their gender and return Ms|Mr|Blank.\
 In the example body above, we have used the same name twice, but one has an US ip and the other a NO ip. They will get different titles because of this.
